@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/item_chamge_mentor_name"
+            android:padding="10sp"
+            android:background="#EFEAEA"
+            android:layout_width="250dp"
+            android:layout_height="50sp"
+            android:hint="@string/mentor_name" />
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/item_change_mentor_lastName"
+            android:padding="10sp"
+            android:background="#EFEAEA"
+            android:layout_width="250dp"
+            android:layout_height="50sp"
+            android:hint="Mentor lastName" />
+        <EditText
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/item_change_mentor_father"
+            android:padding="10sp"
+            android:background="#EFEAEA"
+            android:layout_width="250dp"
+            android:layout_height="50sp"
+            android:hint="fathers name" />
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="end"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="yopish"
+                android:id="@+id/close_btn" />
+            <TextView
+                android:layout_margin="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="o'zgartirish"
+                android:id="@+id/change_btn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
